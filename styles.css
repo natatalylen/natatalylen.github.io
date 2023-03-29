@@ -63,7 +63,7 @@ h2 { color: #E2D8D0;
 }
 
 .hero_links {
-	height: 280px;
+	height: 350px;
 	background-color: #373740;
 	padding-top: 30px;
 }
@@ -101,12 +101,15 @@ a  {
 
 .h_frame_right {
 	height: 45px;
-	width: 360px;
+	width: 380px;
 	background-color: #373740;
 	text-align: center;
 	margin-top: 20px;
 	border-radius: 12px;
 }
+
+
+
 
 
 
