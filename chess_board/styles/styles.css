@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+table, th, td {
+  border: 1px solid;
+ }
+
+th, td {
+	width: 100px;
+	height: 100px;
+  padding: 15px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.odd td:nth-child(even) {
+  background-color: grey;
+}
+ 
+.pair td:nth-child(odd) {
+  background-color: grey;
+  
+}
