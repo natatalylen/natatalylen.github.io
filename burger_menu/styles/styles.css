@@ -95,6 +95,7 @@ title {
 	height: 535px;
 	padding: 40px 40px 0 40px;
 	background-color: white;
+	float: left;
 	
 }
 
@@ -132,7 +133,6 @@ title {
 }
 
 .menu_right {
-	display: inline-block;
 	width: 50%;
 	height: 535px;
 	background-color: red;
