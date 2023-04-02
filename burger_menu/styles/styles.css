@@ -144,12 +144,13 @@ title {
 
 button {
 	height: 60px;
-	width: 120px;
+	width: 160px;
 	color: white;
 	background-color: black;
 	position: relative;
 	text-transform: uppercase;
-	left: 1088px;
+	left: 1048px;
 	margin-top: 40px;
+	border-radius: 10px;
 }
 
