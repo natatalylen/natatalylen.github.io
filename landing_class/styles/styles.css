@@ -1,0 +1,92 @@
+@import url('_variables.css');
+@import url('_header.css');
+@import url('_video.css');
+@import url('_features.css');
+@import url('_technology.css');
+
+/*Global styles*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--main-font);
+}
+
+.page-wrap {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.content-wrap {
+	padding: 0 15px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.hide {
+	display: none !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.btn {
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-login {
+	width: 100px;
+	height: 40px;
+	border: 1px solid var(--white);
+	color: var(--white);
+}
+
+.btn-sign {
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 52px;
+	background-color: var(--white);
+	color: var(--main-color);
+}
+
+.link {
+	text-decoration: none;
+	font-size: 14px;
+	color: var(--brand-color);
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 43px;
+}
+
+@media (min-width: 1200px) {
+	.content-wrap {
+		padding: 0 165px;
+	}
+}
+
+.center {
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 43px;
+}
+
