@@ -1,13 +1,14 @@
 
 
-.tech-section {
-	display: flex;
-	flex-direction: column;
+.flex-tech {
+	/*display: flex;
+	flex-direction: column;*/
 }
 
 .tech{
 	position: relative;
 	text-align: center;
+	
 }
 .number {
 	margin-top: 20px;
@@ -58,9 +59,15 @@
 
 @media (min-width: 1200px) {
 	.flex-tech {
-	display: flex;
+		display: flex;
 	flex-direction: row;
-	justify-content: center;
+
 }
+	.tech {
+		width: 255px;
+
+
+
+	}
     
 }
