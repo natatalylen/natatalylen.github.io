@@ -1,0 +1,325 @@
+
+.header{
+	position: relative;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid;
+	padding: 0 5px;
+	border-color: #8F9B85;
+}
+
+h1 {
+  position: absolute;
+  right: calc(50% - 80px);
+ font-size: 1.563rem;
+ text-transform: uppercase;
+ font-family: "Prosto One";
+ color: #1E381E;
+
+ font-size: 25px;
+
+}
+
+.rghtpartheader {
+	display: flex;
+	justify-content: center;
+	align-items: self-end;
+	font-family: "Prosto One";
+	font-size: 8px;
+	gap: 4px;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.decormenu {
+	width: 10px;
+	height: 1px;
+	background-color: white;
+	font-size: 8px;
+}
+
+.lftpartheader {
+	width:50px;
+	display: flex;
+	font-family: "Prosto One";
+	font-size: 8px;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
+
+
+
+}
+
+.lefttext {
+	font-size: 8px;
+}
+
+ul.breadcrumb {
+
+	padding: 10px 0 10px 0;
+	font-family: "Montserrat";
+	font-size: 10px;
+	font-weight: 400;
+	text-transform:capitalize;
+
+}
+
+ul.breadcrumb li {
+	display: inline;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: url(../img/Ellipse.png);
+}
+
+.bottlepict {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 16px;
+}
+
+.dckrptn {
+	width: 100%;
+	height: auto;
+	background-color:#B3B8AC ;
+	border-radius: 6px;
+	padding: 16px 35px 10px 9px;
+}
+
+ .dckrptnnext {
+	background-color:#A9B19C;
+	width: 100%;
+	height: auto;
+
+	
+	border-radius: 6px;
+	padding: 16px 35px 10px 9px;
+}
+
+ }
+
+.radio{
+	display: block;
+	cursor: pointer; 
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 18px;
+line-height: 24px;
+	user-select:none;
+	text-align: left;
+	padding-bottom: 10px;
+	&+.radio{
+	  margin-top: 12px;
+	}
+	input{
+	  display: none;
+	  &+span{
+		display: inline-block; 
+		position: relative;
+		padding-left: 30px;
+		&:before{
+		  content: '';
+		  display: block; 
+		  position: absolute;
+		  top: 0px;
+		  left: 0px;
+		  border-radius: 50%;
+		  margin-right: 5px;
+		  width: 16px;
+		  height: 16px;
+		  border: 1px solid #ccc;
+		  background:#1E381E
+		}
+		&:after{
+		  content: '';
+		  display: block; 
+		  width: 10px;
+		  height: 10px;
+		  background: #1E381E;
+		  position: absolute;
+		  border-radius: 50%;
+		  top: 3px;
+		  left: 3px;
+		  opacity: 0;
+		  transform: scale(0,0); 
+		  transition: all .2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+		}
+	  }
+	  &:checked+span:after{
+		opacity: 1;
+		transform: scale(1,1);
+	  }
+	}
+  }
+
+h2 {
+	font-family: "Prosto One";
+	color: #1E381E;
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 10px;
+	
+}
+h2::first-letter {
+	text-transform: uppercase;
+}
+
+h3 {
+	display: inline-block;
+	font-family: "Prosto One";
+	color: #1E381E;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+h3::first-letter{
+	text-transform: uppercase;
+}
+
+.forheader {
+	width: 240;
+	height: auto;}
+	
+.price {
+	font-family: 'Prosto One';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 24px;
+display: inline-block;
+padding-top: 10px;
+color: #1E381E;
+}
+
+.videoarea {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.videoadd {
+
+    width: 100vw;
+    height: 238px;
+	margin-top: 30px;
+	background-image: url(../img/video.png);
+	background-repeat:no-repeat
+    
+}
+
+.videobtn {
+	position: absolute;
+	left: calc(50% - 45px);
+	top: calc(50% - 45px);
+
+	
+}
+
+.headerarrow {
+	display: flex;
+	align-items:flex-start;
+	gap:10px;
+	padding-left:20px;
+	margin-bottom: 20px;
+}
+.witharrow {
+	display: inline-block ;
+	width: 275px;
+	height: 48px;
+	
+
+}
+
+.twoarrow {
+	display: flex;
+	gap: 10px;
+}
+
+.framepctr {
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	border-color: white;
+
+}
+
+.framepctr {
+	height: 444px;
+	width: 290px;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+
+.slider-container {
+    background-color: #A9B19C;: linear-gradient(149deg, rgb(247, 0, 255) 0%, rgb(255, 145, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.slider {
+    width: 100%;
+   
+    height: 444px;
+    margin: 10px;
+    text-align: center;
+  
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 400px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    background-color: #8F9B85
+	;
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+}
+
+.girlspict {
+	width: 373px;
+	height: 144px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+
+}
+
+.starslogo {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

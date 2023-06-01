@@ -1,0 +1,91 @@
+@import url('_variables.css');
+@import url(_header.css);
+@import url(_video.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+h1 {
+	font-family: "Prosto One";
+}
+
+
+
+body {
+	background-color: #A9B19C;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.wrapper {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 15px 10px 0 10px;
+}
+
+p {
+	font-family: "Montserrat";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top: 10px;
+	
+
+}
+
+.button {
+	width: auto;
+	height: 60px;
+	background: #1E381E;
+	border-radius: 3px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	
+}
+
+.txtbutton {
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+
+.icons {
+	background-color: ;
+	display: flex;
+	gap:35px;
+	width: 286px;
+	height: 66px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+}
+
+.newbtn {
+
+	background-color: #A9B19C;
+	border: 2px solid;
+	border-color: #1E381E;
+}
+
+.greentxt {
+	color: #1E381E;
+} 
